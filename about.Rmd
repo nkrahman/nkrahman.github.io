@@ -1,11 +1,43 @@
 ---
-title: "About"
+title: "Research"
 ---
 
-### About this site
+**My current and previous research affiliations include:**
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
+* Department of Social Medicine at the National Center for Child Health and Development, Tokyo, Japan
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+* Understanding Group-based Asymmetries in Pay Working Group at Columbia University, New York, NY, USA
 
+* Promoting Mental Health-AANHPI Initiative within the Bureau of Community Awareness, Action, Response, and Engagement at the NYC Department of Health and Mental Hygiene, New York, NY, USA
 
+* NYU Center for the Study of Asian American Health at NYU Langone Health, New York, NY, USA
+
+* Youth & Young Adult Development Lab at Yonsei University, Seoul, South Korea
+
+* Johns Hopkins Center for a Livable Future, Baltimore, MD, USA
+
+* Office of Minority Health and Health Disparities at the Maryland Department of Health, Baltimore, MD, USA
+
+* Johns Hopkins Center for Global NCD Research and Training, Baltimore, MD, USA
+
+* Johns Hopkins Medicine, Baltimore, MD, USA
+
+**Publications:**
+
+* Successes and challenges to implementing the Fondo de Inclusión Social Energético LPG access program in Peru: Novel insights from front-end implementers [[link](https://doi.org/10.1016/j.esd.2023.101267)]
+
+* Availability, affordability and access to essential medications for asthma and chronic obstructive pulmonary disease in three low- and middle-income country settings [[link](https://doi.org/10.1371/journal.pgph.0001309)]
+
+* Retail Purchases of Red and Processed Meat by State in the United States [[link](https://doi.org/10.1080/01635581.2022.2108072)]
+
+* Relationship of cash transfers with risk of overweight and obesity in children and adults: a systematic review [[link](https://doi.org/10.1186/s12889-022-13533-x)]
+
+* Convenience Food Options and Adequacy of Nutrient Intake among School Children during the COVID-19 Pandemic [[link](https://doi.org/10.3390/nu14030630)]
+
+* Patterns of legume purchases and consumption in the United States [[link](https://doi.org/10.3389/fnut.2021.732237)]
+
+* Effectiveness of low-dose theophylline for the management of biomass-associated COPD (LODOT-BCOPD): study protocol for a randomized controlled trial [[link](https://doi.org/10.1186/s13063-021-05163-2)]
+
+* Legumes as a sustainable source of protein in human diets [[link](https://doi.org/10.1016/j.gfs.2021.100520)]
+
+* Providing Planetary Health Diet Meals to Low-Income Families in Baltimore City during the COVID-19 Pandemic [[link](https://doi.org/10.5304/jafscd.2020.101.010)]

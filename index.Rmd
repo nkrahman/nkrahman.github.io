@@ -1,36 +1,21 @@
 ---
-title: "Nihaal Rahman (nkr2121)"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# This is Jeff's awesome website
+**About**
 
-Here's a gif of elmo
+Welcome to my website! 
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+I'm Nihaal Rahman, and I am currently pursuing an MPH in Epidemiology with a Certificate in Applied Biostatistics & Public Health Data Science at Columbia University in New York City. 
 
+I also work concurrently as a Research Affiliate under Dr. Naho Morisaki in the Department of Social Medicine at the [National Center for Child Health and Development](https://www.ncchd.go.jp/en/scholar/research/section/social_medicine.html) in Tokyo, Japan. 
 
-You can add text 
+My work has focused on social epidemiology, climate change, global health, and their intersections. You can learn more about professional experience and reseach under my [research](about.html) page. 
 
-* and lists
-* with extra bullets 
-
-You can *FORMAT* and **bold?**
+I created this website for my [P8105 Data Science I](https://p8105.com/index.html) course. 
 
 
-This is [link](https://www.google.com/) to a good data science tool. Here is a link to [P8105](https://p8105.com/index.html). Here's a link to the [about](about.html) page
 
-
-# Here's a new section
-
-My cat is ted. This cat is ted:
-
-![](images/ted.jpg)
-
-
-Also here's the "backstage" area in Alumni Auditorium:
-
-![](images/backstage.jpg)
