@@ -9,7 +9,7 @@ output:
 
 I'm Nihaal Rahman, and I am currently pursuing an MPH in Epidemiology with a Certificate in Applied Biostatistics & Public Health Data Science at Columbia University in New York City. 
 
-I also work concurrently as a Research Affiliate under Dr. Naho Morisaki in the Department of Social Medicine at the [National Center for Child Health and Development](https://www.ncchd.go.jp/en/scholar/research/section/social_medicine.html) in Tokyo, Japan. 
+I also work concurrently as a Research Affiliate under Dr. Naho Morisaki in the Department of Social Medicine at the [National Center for Child Health and Development](https://www.ncchd.go.jp/scholar/research/section/socialmed/index.html) in Tokyo, Japan. 
 
 My work has focused on social epidemiology, climate change, global health, and their intersections. You can learn more about professional experience and reseach under my [about](about.html) page. 
 
