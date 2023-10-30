@@ -1,0 +1,59 @@
+---
+title: "P8105 HW4 Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(dplyr)
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Box plot 
+
+```{r}
+data("instacart")
+
+instacart |> 
+  filter(aisle %in% "packaged produce") |> 
+  plot_ly(y = ~order_hour_of_day, 
+          color = ~product_name, 
+          type = "box", 
+          colors = "viridis")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Bar chart
+
+```{r}
+instacart |> 
+  filter(department %in% "produce") |> 
+  count(aisle) |> 
+  mutate(aisle = fct_reorder(aisle, n)) |> 
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle,
+          type = "bar", 
+          colors = "viridis")
+```
+
+### Scatter plot
+
+```{r}
+instacart |> 
+  group_by(order_hour_of_day, department) |> 
+  summarise(count = n()) |> 
+  plot_ly(x = ~order_hour_of_day, y = ~count, color = ~department,
+          type = 'scatter', 
+          mode = 'markers',
+          alpha = 0.6)
+```
+

@@ -13,7 +13,7 @@ I also work concurrently as a Research Affiliate under Dr. Naho Morisaki in the 
 
 My work has focused on social epidemiology, climate change, global health, and their intersections. You can learn more about professional experience and reseach under my [about](about.html) page. 
 
-I created this website for my [P8105 Data Science I](https://p8105.com/index.html) course. For the professors and the TA's, you can find my [HW4](hw4.html) assignment under "Projects" at the top of the page. 
+I created this website for my [P8105 Data Science I](https://p8105.com/index.html) course. For the professors and the TA's, you can find my [HW4](hw4_dashboard.html) assignment under "Projects" at the top of the page. 
 
 
 
