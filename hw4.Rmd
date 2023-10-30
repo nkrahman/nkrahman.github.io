@@ -3,20 +3,27 @@ title: "HW4"
 author: "Nihaal Rahman (nkr2121)"
 ---
 
-#Here is a nice project
-
-You can also still use R!
-
-```{r}
+```{r, echo = FALSE, message = FALSE}
+library(dplyr)
 library(tidyverse)
-
-plot_df =
-  tibble(
-    x = runif(100),
-    y = 1 + 2 * x + rnorm(100)
-  )
-
-plot_df |> 
-  ggplot(aes(x = x, y = y)) +
-  geom_point()
+library(plotly)
+library(p8105.datasets)
 ```
+
+Focus on Instacart data
+```{r}
+data("instacart")
+```
+
+Let's make a scatterplot! 
+
+```{r, message = FALSE, warning = FALSE}
+instacart |> 
+  group_by(order_hour_of_day, department) |> 
+  summarise(count = n()) |> 
+  plot_ly(x = ~order_hour_of_day, y = ~count, color = ~department,
+          type = 'scatter', 
+          mode = 'markers',
+          alpha = 0.6)
+```
+
