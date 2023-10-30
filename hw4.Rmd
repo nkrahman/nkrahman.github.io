@@ -27,3 +27,15 @@ instacart |>
           alpha = 0.6)
 ```
 
+Let's make a bar plot, focusing in on produce. 
+
+```{r}
+instacart |> 
+  filter(department %in% "produce") |> 
+  count(aisle) |> 
+  mutate(aisle = fct_reorder(aisle, n)) |> 
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle,
+          type = "bar", 
+          colors = "viridis")
+```
+
