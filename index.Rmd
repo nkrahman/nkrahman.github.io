@@ -1,5 +1,5 @@
 ---
-title: "My awesome website"
+title: "Nihaal Rahman (nkr2121)"
 output: 
   html_document:
     toc: true
@@ -22,23 +22,6 @@ You can *FORMAT* and **bold?**
 
 
 This is [link](https://www.google.com/) to a good data science tool. Here is a link to [P8105](https://p8105.com/index.html). Here's a link to the [about](about.html) page
-
-
-You can also still use R!
-
-```{r}
-library(tidyverse)
-
-plot_df =
-  tibble(
-    x = runif(100),
-    y = 1 + 2 * x + rnorm(100)
-  )
-
-plot_df |> 
-  ggplot(aes(x = x, y = y)) +
-  geom_point()
-```
 
 
 # Here's a new section
