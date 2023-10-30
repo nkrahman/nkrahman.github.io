@@ -39,3 +39,14 @@ instacart |>
           colors = "viridis")
 ```
 
+Finally, let's make a box plot of just packaged produce. 
+
+```{r}
+instacart |> 
+  filter(aisle %in% "packaged produce") |> 
+  plot_ly(y = ~order_hour_of_day, 
+          color = ~product_name, 
+          type = "box", 
+          colors = "viridis")
+```
+
